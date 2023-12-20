@@ -1,37 +1,108 @@
-schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: Données de Gavino
-url: https://github.com/gabays/Gavino_HTR
 authors:
-  - name: Gavino
-    surname: Scala
-    roles:
-      - transcriber
-      - project-manager
-  - name: Simon
-    surname: Gabay
-    roles:
-      - quality-control
-      - support
-institutions: []
-description: Documents médiévaux en gothique
-project-name: FoNDUE
-language:
-  - fra
-production-software: eScriptorium + Kraken
+- name: Gavino
+  roles:
+  - transcriber
+  - project-manager
+  surname: Scala
+- name: Simon
+  roles:
+  - quality-control
+  - support
+  surname: Gabay
 automatically-aligned: false
-script:
-  - iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1300'
-  notAfter: '1400'
+characters:
+  members:
+  - e
+  - s
+  - t
+  - n
+  - i
+  - u
+  - r
+  - o
+  - a
+  - l
+  - c
+  - d
+  - m
+  - .
+  - p
+  - q
+  - g
+  - f
+  - ̃
+  - h
+  - z
+  - b
+  - '-'
+  - y
+  - E
+  - ¶
+  - x
+  - ̾
+  - L
+  - S
+  - C
+  - ⁊
+  - ꝑ
+  - Q
+  - I
+  - D
+  - M
+  - R
+  - A
+  - ͥ
+  - N
+  - O
+  - ꝰ
+  - ͣ
+  - v
+  - H
+  - ;
+  - P
+  - ͬ
+  - F
+  - ꝯ
+  - ':'
+  - U
+  - ͤ
+  - B
+  - "'"
+  - ⟦
+  - ⟧
+  - T
+  - G
+  - ͦ
+  - V
+  mode: NFD
+description: Documents médiévaux en gothique
+format: Alto-XML
 hands:
   count: '1'
   precision: exact
+institutions: []
+language:
+- fra
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-format: Alto-XML
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: FoNDUE
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1400'
+  notBefore: '1300'
+title: Données de Gavino
+url: https://github.com/gabays/Gavino_HTR
 volume:
-  - metric: lines
-    count: 20
+- count: 20440
+  metric: characters
+- count: 20
+  metric: files
+- count: 993
+  metric: lines
+- count: 109
+  metric: regions
